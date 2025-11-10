@@ -93,7 +93,6 @@ A comunicação do sistema é baseada no **protocolo MQTT (Message Queuing Telem
 
 ## Arquitetura do Sistema
 ```json
-graph TD
 A[Sensor MPU6050] -->|Dados via I²C| B[ESP32]
 B -->|Detecção de queda| C[Buzzer]
 B -->|Mensagem JSON| D[Broker MQTT (Eclipse Mosquitto)]
