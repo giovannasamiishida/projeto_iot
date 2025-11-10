@@ -52,7 +52,7 @@ O código foi desenvolvido na **Arduino IDE**, utilizando as bibliotecas:
 ## Interfaces, Protocolos e Comunicação
 A comunicação do sistema é baseada no **protocolo MQTT (Message Queuing Telemetry Transport)**, operando sobre **TCP/IP**.
 
-### 📡 Estrutura das mensagens publicadas
+### Estrutura das mensagens publicadas
 ```json
 {
   "event": "fall_confirmed_impact_then_tiltZ",
